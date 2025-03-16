@@ -1,0 +1,22 @@
+## File Descriptions
+
+### `hashmap.h`
+- **Purpose**: Header file for the hashmap implementation.
+- **Description**: Defines structures and prototypes for the hashmap and symbol table, including the `Node` and `Hashtable` structures, and declares functions for hash calculation, insertion, display, and scope management.
+
+### `hashmap.c`
+- **Purpose**: Implementation of the hashmap and symbol table functionality.
+- **Description**: Contains the implementation of the hash function, insertion, display, scope management, and memory cleanup functions.
+
+### `wtof.c`
+- **Purpose**: Main program to simulate a symbol table for an imaginary programming language.
+- **Description**: Reads commands from `program.txt` to perform operations like creating scopes, assigning variables, and printing values using the hashmap implementation.
+
+### `id.c`
+- **Purpose**: Helper program to demonstrate type detection and value printing.
+- **Description**: Reads values from a file, determines their type (integer, float, or string), and prints them in a formatted way.
+this file has not been uploaded but features are there in wtof.c
+
+### `program.txt`
+- **Purpose**: Input file containing commands for the symbol table simulation.
+- **Description**: Contains commands like `begin`, `end`, `assign`, and `print` to simulate a program in an imaginary language.
